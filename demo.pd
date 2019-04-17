@@ -1,0 +1,4 @@
+#N canvas 88 69 859 480 10;
+#X declare -path volka_abstractions;
+#X obj 20 40 v-midi-clock;
+#X obj 2 3 declare -path volka_abstractions;
