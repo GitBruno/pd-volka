@@ -2,3 +2,4 @@
 #X declare -path volka_abstractions;
 #X obj 20 40 v-midi-clock;
 #X obj 2 3 declare -path volka_abstractions;
+#X obj 202 3 v-sample-notes-to-speed;
