@@ -1,9 +1,9 @@
-#N canvas 208 132 859 480 10;
+#N canvas 160 107 859 480 10;
 #X declare -path volka_abstractions;
 #X obj 20 39 v-midi-clock;
 #X obj 2 3 declare -path volka_abstractions;
 #X obj 202 3 v-sample-notes-to-speed;
-#X obj 20 110 v-clock-divider;
+#X obj 19 111 v-clock-divider;
 #X obj 20 181 v-clock-divider;
 #X connect 0 0 3 0;
 #X connect 3 7 4 0;
