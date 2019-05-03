@@ -16,7 +16,8 @@ Get into the global menu by holding `FUNC` when powering on.
 | 4    | polarity sync in       | Low / High                            |
 | 5    | bpm range              | nR (Narrow: 60–240) FR (Full: 10–600) |
 | 6    | MIDI clock             | Au (Auto) / In (Ignore)               |
-| 7    | MIDI Start and Stop    | on/off                                |
+| 7    | MIDI RX ShortMessage   | on/off                                |
+| 8    | Sync input/output unit | Once a step / Once every 2 steps      |
 
 ## Volka Sample MIDI CC
 
@@ -37,6 +38,8 @@ Control messages for Parts 1 – 10 (Channel 1 – 10):*
 | 48      | AMP EG DECAY           |                            |
 
 ## Volka FM MIDI CC
+
+Received when global parameter MIDI RX ShortMessage is set to ON.
 
 | MIDI CC | Control          | Notes |
 |--------:|:-----------------|:------|
