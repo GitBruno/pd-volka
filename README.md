@@ -4,10 +4,21 @@
 
 Mainly exist of MIDI generators but also a place where to save some collected docs.
 
-## Volka Sample
+## Volka Global Settings
 
+Get into the global menu by holding `FUNC` when powering on.
 
-### MIDI CC
+| Step | Control                | Notes                                 |
+|-----:|:-----------------------|:--------------------------------------|
+| 1    | auto-power-off         | on/off                                |
+| 2    | battery type           | nH (rechargeable) or AL (alkaline)    |
+| 3    | polarity sync out      | Low / High                            |
+| 4    | polarity sync in       | Low / High                            |
+| 5    | bpm range              | nR (Narrow: 60–240) FR (Full: 10–600) |
+| 6    | MIDI clock             | Au (Auto) / In (Ignore)               |
+| 7    | MIDI Start and Stop    | on/off                                |
+
+## Volka Sample MIDI CC
 
 Control messages for Parts 1 – 10 (Channel 1 – 10):*
 
@@ -25,16 +36,19 @@ Control messages for Parts 1 – 10 (Channel 1 – 10):*
 | 47      | AMP EG ATTACK          |                            |
 | 48      | AMP EG DECAY           |                            |
 
-## Volka Global Settings
+## Volka FM MIDI CC
 
-Get into the global menu by holding `FUNC` when powering on.
+| MIDI CC | Control          | Notes |
+|--------:|:-----------------|:------|
+| 40      | TRANSPOSE        |       |
+| 41      | VELOCITY         |       |
+| 42      | MODULATOR ATTACK |       |
+| 43      | MODULATOR DECAY  |       |
+| 44      | CARRIER ATTACK   |       |
+| 45      | CARRIER DECAY    |       |
+| 46      | LFO RATE         |       |
+| 47      | LFO PITCH DEPTH  |       |
+| 48      | ALGORITHM        |       |
+| 49      | ARP TYPE         |       |
+| 50      | ARP DIV          |       |
 
-| Step | Control                | Notes                                 |
-|-----:|:-----------------------|:--------------------------------------|
-| 1    | auto-power-off         | on/off                                |
-| 2    | battery type           | nH (rechargeable) or AL (alkaline)    |
-| 3    | polarity sync out      | Low / High                            |
-| 4    | polarity sync in       | Low / High                            |
-| 5    | bpm range              | nR (Narrow: 60–240) FR (Full: 10–600) |
-| 6    | MIDI clock             | Au (Auto) / In (Ignore)               |
-| 7    | MIDI Start and Stop    | on/off                                |
